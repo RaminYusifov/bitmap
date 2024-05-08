@@ -1,0 +1,64 @@
+.burger-menu-block {
+    width: 100%;
+    height: 325px;
+    padding-inline: 15px;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    padding-top: 20px;
+    animation: slideDown 0.2s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.burgen-menu-xmark {
+    font-size: 35px;
+    color: #fcdc00;
+    cursor: pointer;
+}
+
+.burger-menu-nav {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-block: 6px;
+    border-bottom: 1px solid #303030;
+}
+
+.burger-menu-button {
+    width: 340px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    position: fixed;
+}
+
+.burger-menu-nav:hover {
+    color: #fcdc00;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.search {
+    margin-block: 20px;
+}
+
+.bm {
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    overflow-y: auto;
+}

@@ -1,0 +1,152 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1150px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    margin-top: 80px;
+}
+
+.info2 {
+    display: flex;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.em {
+    width: 410px;
+    height: 140px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 20px;
+    resize: vertical;
+    letter-spacing: 0.5px;
+}
+
+.em,
+.form-control::placeholder {
+    color: #999;
+}
+
+.em,
+.form-control:focus {
+    outline: none;
+}
+
+.info3 form {
+    display: flex;
+}
+
+.info3 h6,
+a {
+    font-size: 17px;
+    line-height: 24px;
+    color: #222222;
+    font-weight: 300;
+}
+
+.info3 p {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 2px 0px;
+    color: #777777;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    font-size: 20px;
+    color: #fcdc00;
+    margin-right: 35px;
+}
+
+.btn-sm {
+    width: 169px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 681px;
+}
+
+.btn-sm button {
+    background: #fcdc00;
+    border: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 28px;
+    line-height: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.form-control {
+    font-size: 14px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    padding: 6px 218px 6px 20px;
+    letter-spacing: 0.5px;
+}
+
+.form-control::placeholder {
+    color: #999;
+}
+
+.two {
+    margin-top: 10px;
+}
+
+.map {
+    width: 1150px;
+    height: 420px;
+    border: none;
+}
+
+@media(max-width:768px) {
+    .container2 {
+        align-items: center;
+    }
+
+    .container3 {
+        flex-direction: column;
+    }
+
+    .info3 form {
+        flex-direction: column;
+    }
+
+    .input {
+        margin-bottom: 10px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .btn-sm {
+        margin-left: 0;
+        margin-left: 200px;
+    }
+
+    .em {
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}

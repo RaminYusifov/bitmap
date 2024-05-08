@@ -1,0 +1,114 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9ff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.container {
+    width: 1170px;
+}
+
+.first {
+    background: #fcdc00;
+}
+
+.isotope_fillter {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    margin-bottom: 80px;
+}
+
+.isotope_fillter .gallery_filter {
+    text-align: center;
+}
+
+.isotope_fillter .gallery_filter li {
+    display: inline-block;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.isotope_fillter .gallery_filter li:hover a {
+    background: #fcdc00;
+}
+
+.isotope_fillter .gallery_filter li a {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    line-height: 48px;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+.all-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images {
+    position: relative;
+    margin: 15px;
+}
+
+.images h4 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    bottom: 70px;
+}
+
+.images a {
+    display: flex;
+    justify-content: center;
+}
+
+.images img:hover {
+    filter: brightness(50%);
+    transition-duration: 0.3s;
+}
+
+.images:hover a {
+    position: relative;
+    bottom: 160px;
+}
+
+.lmi {
+    background: #fcdc00;
+    border: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0px 28px;
+    line-height: 40px;
+    margin-top: 65px;
+}
+
+@media(max-width:768px) {
+    .container {
+        width: auto;
+    }
+}

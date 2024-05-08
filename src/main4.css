@@ -1,0 +1,43 @@
+.main4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;
+}
+
+.fuoi {
+    line-height: 60px;
+    padding: 0 28px;
+    background: #fcdc00;
+    border: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.ins-all {
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ins-all img {
+    transition: 0.3s;
+    display: block;
+}
+
+.ins-all img:hover {
+    transform: scale(1.05);
+}
+
+@media(max-width:768px) {
+    .cont3 {
+        flex-wrap: wrap;
+    }
+}
